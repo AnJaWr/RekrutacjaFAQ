@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+* {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h3 {
+  padding: 10px;
+  text-align: center;
+}
+.accordion {
+  background-color: rgb(220, 220, 220);
+}
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 0.6em;
+  color: #cecece;
+  text-align: left;
+  background-color: rgb(6, 124, 20);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    border-radius 0.15s ease;
+}
+.accordion-body {
+  background-color: #cecece;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #0d3d01;
+  background-color: rgb(137, 204, 145);
+}
+.one {
+  background-color: cadetblue;
+  padding-bottom: 50px;
+}
+.two {
+  background-color: rgba(95, 158, 160, 0.597);
+  padding-bottom: 50px;
+}
+.three {
+  background-color: rgba(95, 158, 160, 0.344);
+  padding-bottom: 50px;
+}
+.logo {
+  width: auto;
+  height: 35vh;
+  background-image: url(logo.png);
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
